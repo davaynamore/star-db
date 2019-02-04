@@ -1,0 +1,43 @@
+.header {
+  margin-top: .5rem;
+  padding-left: 10px;
+
+  ul li {
+    list-style: none;
+    margin: 0;
+    padding: .5rem 1rem;
+    border-radius: 3px;
+
+    &:hover {
+      background-color: #444;
+    }
+
+    a:hover {
+      text-decoration: none;
+    }
+
+    button {
+      color: #00bc8c;
+      text-decoration: none;
+      background-color: transparent;
+      -webkit-text-decoration-skip: objects;
+      background: none;
+      border: none;
+      height: auto;
+      margin: 0;
+    }
+  }
+
+  h3 a {
+    color: white;
+
+    &:hover {
+      color: #00bc8c;
+    }
+  }
+
+  button {
+    height: 2.2rem;
+    margin-top: 3px;
+  }
+}

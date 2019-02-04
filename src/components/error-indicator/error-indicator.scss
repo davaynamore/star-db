@@ -1,0 +1,17 @@
+.error-indicator {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  color: red;
+  padding: 20px;
+
+  .boom {
+    font-size: 2em;
+  }
+}
+
+.error-icon {
+  max-width: 5%;
+}
